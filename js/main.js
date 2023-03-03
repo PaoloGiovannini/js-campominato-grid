@@ -1,11 +1,11 @@
 const containerDom = document.querySelector('.container');
-const bottoneDom = document.querySelector('#bottone')
-const mainDom = document.querySelector('#main')
-const footerDom = document.querySelector('#footer')
+const bottoneDom = document.querySelector('#bottone');
+const mainDom = document.querySelector('#main');
+const footerDom = document.querySelector('#footer');
 
 bottoneDom.addEventListener('click', function() {
-    mainDom.classList.remove('d-none')
-    footerDom.classList.remove('d-none')
+    mainDom.classList.remove('d-none');
+    footerDom.classList.remove('d-none');
 }
 );
 for (let i = 1; i <= 100; i++ ) {
